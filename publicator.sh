@@ -1,6 +1,6 @@
 #!/bin/bash
 
 dc=$(which docker-compose)
-$dc run --rm wpcli post create --post_type=post --post_title="$1" --post_content="$2" --post_status=publish
+$dc -f /home/ed/wp-w-wpcli/docker-compose.yml run --rm wpcli post create --post_type=post --post_title="$1" --post_content="$2" --post_status=publish
 echo "Publicando...."
 
