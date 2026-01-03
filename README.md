@@ -8,3 +8,4 @@ Este script lo tenes que tener con permisos de ejecucion en el mismo directorio 
 Desde dondes gustes conectarte podes hacer lo siguiente para correr el script.<br>
 ssh ed@192.168.0.222 "/home/ed/wp-w-wpcli/publicator.sh 'Titulo del post' 'Contenido del maldito fucking post'"<br>
 En este ejemplo tengo el script dentro de un wordpress y de ese modo hago el post nuevo<br>
+Hay que completar la variable f con la ruta absoluta del docker-compose.yml del wordpress. Sino no funciona <br>
